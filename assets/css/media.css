@@ -24,12 +24,16 @@
     }
     .banner>.home>.search>select,input{
         padding: 10px;
+        width: 80vw;
     }
     .banner>.home>.search>input{
         width: 94%;
     }
     .banner>.home1{
         margin-top: 40px;
+    }
+    .banner>.home1>figure{
+        width: 100%;
     }
     .banner1>.categori{
         flex-flow: column;
@@ -41,11 +45,9 @@
         align-items: center;
         width: 100%;
     }
-    .banner1>.categori>.images>div{
-        width: 82%;
-    }
     .banner1>.categori>div:nth-child(2){
         width: 80%;
+        margin-top: 50px;
     }
     .banner1>.categori>div:last-child{
         width: 100%;
@@ -132,6 +134,7 @@
     }
     .banner1>.categori>div:nth-child(2){
         width: 80%;
+        margin-top: 50px;
     }
     .banner1>.categori>div:last-child{
         width: 100%;
